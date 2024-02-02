@@ -33,7 +33,7 @@ const Social = () => {
                   
                   <li className="contact-icons">
                     <a
-                      href="www.linkedin.com/in/balaji-ruse/"
+                      href="https://www.linkedin.com/in/balaji-ruse/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
