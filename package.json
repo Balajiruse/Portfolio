@@ -52,6 +52,9 @@
     ]
   },
   "devDependencies": {
-    "pdfjs-dist": "^3.5.141"
+    "autoprefixer": "^10.4.19",
+    "pdfjs-dist": "^3.5.141",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
 }

@@ -7,6 +7,9 @@ import Library from "../assets/projects/Screenshot (483).png";
 import Shoping from "../assets/projects/Screenshot (484).png";
 import GmailClone from "../assets/projects/Screenshot (478).png";
 import DashBoard from "../assets/projects/Screenshot (486).png";
+import customer from "../assets/projects/customer.png"
+import money from "../assets/projects/money.png"
+import management from "../assets/projects/management.png"
 import ToTo from "../assets/projects/Screenshot (482).png"
 
 const Projects = () => {
@@ -29,6 +32,36 @@ const Projects = () => {
               description="This project aims to replicate the basic functionalities of Gmail, providing a platform for users to send, receive, organize, and manage emails."
               ghLink="https://github.com/Balajiruse/Gmail-Clone-FrontEnd.git"
               demoLink="https://celebrated-biscuit-598c6e.netlify.app/signin"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={money}
+              isBlog={false}
+              title="Money Manager"
+              description="Money Manager is a MERN stack web application for efficient management of petty cash transactions."
+              ghLink="https://github.com/Balajiruse/Money-Manager-Frontend.git"
+              demoLink="https://melodic-eclair-0209be.netlify.app/signin"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customer}
+              isBlog={false}
+              title="Customer Manager"
+              description="It's a Customer Manage Application with 3 Roles Users, Managers and Admin with Features of Notification, Tickets, Activity, Services etc... Each Roles have a Different Permission to interact with an Application"
+              ghLink="https://github.com/Balajiruse/Customer-Manager-FrontEnd.git"
+              demoLink="https://storied-phoenix-9a7b43.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={management}
+              isBlog={false}
+              title="Management Application"
+              description="it's Management Application Manage stocks and bill products or pay online via razor pay"
+              ghLink="https://github.com/Balajiruse/Management-Application-Frontend.git"
+              demoLink="https://curious-peony-d42fbc.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">

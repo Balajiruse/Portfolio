@@ -36,7 +36,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={4} style={{ paddingBottom: 20,width:"10px",height:"10px" }}>
               {/* <img
                 src={homeLogo}
                 alt="home pic"
@@ -44,7 +44,7 @@ const Home = () => {
                 style={{ maxHeight: "450px", borderRadius: "50%" }}
               /> */}
                <div class="circular-slider">
-    <div class="slider-content">
+    <div class="slider-content size-14">
       <div class="slider-item">
         <img src={pic1} alt=''/>
       </div>
